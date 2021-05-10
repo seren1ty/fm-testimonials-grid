@@ -46,6 +46,8 @@ body {
 .card-violet {
   background: var(--violet);
   color: var(--light-grey-blue);
+  position: relative;
+  z-index: 1;
 }
 
 .card-grey-blue {
@@ -61,6 +63,16 @@ body {
 .card-dark-blue {
   background: var(--dark-blue);
   color: var(--white);
+}
+
+.quotes {
+  width: 104px;
+  height: 102px;
+  background-image: url(./images/bg-pattern-quotation.svg);
+  position: absolute;
+  top: 0;
+  right: 80px;
+  z-index: -1;
 }
 
 img {
@@ -203,5 +215,9 @@ img {
   .item5 {
     grid-column: 1;
     grid-row: 7 / span 2;
+  }
+
+  .quotes {
+    right: 40px;
   }
 }
