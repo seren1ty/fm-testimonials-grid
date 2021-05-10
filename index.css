@@ -168,7 +168,7 @@ img {
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   body {
     width: 320px;
     height: auto;
