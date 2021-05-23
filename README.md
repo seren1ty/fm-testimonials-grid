@@ -1,5 +1,5 @@
-# Frontend Mentor - Testimonials grid section
+# Testimonials grid section
 
-![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Testimonials grid section](./design/desktop-preview.jpg)
 
 Pure CSS styled grid with responsive design for Desktop/Tablet/Mobile.
